@@ -1,0 +1,304 @@
+# 
+
+
+# diff all
+
+
+
+# version
+
+# Betaflight / STM32F411 (F411) 2025.12.1 Feb  6 2026 / 13:30:37 (85d201376) MSP API: 1.47
+
+# config rev: 46f5576
+
+
+
+# start the command batch
+
+batch start
+
+
+
+# reset configuration to default settings
+
+defaults nosave
+
+
+
+board_name HGLRCF411SX1280V2
+
+manufacturer_id HGLR
+
+mcu_id 0041005f3034510932373331
+
+signature 
+
+
+
+# name: Gustav
+
+
+
+# feature
+
+feature OSD
+
+
+
+# serial
+
+serial UART1 2048 115200 57600 0 115200
+
+
+
+# beacon
+
+beacon RX_LOST
+
+beacon RX_SET
+
+
+
+# aux
+
+aux 0 0 0 1800 2100 0 0
+
+aux 1 0 1 1800 2100 0 0
+
+aux 2 1 2 900 1200 0 0
+
+aux 3 2 2 1350 1625 0 0
+
+aux 4 13 3 1825 2100 0 0
+
+aux 5 35 1 1775 2100 0 0
+
+
+
+# vtxtable
+
+vtxtable bands 5
+
+vtxtable channels 8
+
+vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725
+
+vtxtable band 2 BOSCAM_B B FACTORY 5733 5752 5771 5790 5809 5828 5847 5866
+
+vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665 5645 5885 5905 5925 5945
+
+vtxtable band 4 FATSHARK F FACTORY 5740 5760 5780 5800 5820 5840 5860 5880
+
+vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
+
+vtxtable powerlevels 4
+
+vtxtable powervalues 2 14 20 26
+
+vtxtable powerlabels 1 25 100 400
+
+
+
+# master
+
+set acc_calibration = -110,50,-18,1
+
+set motor_pwm_protocol = DSHOT600
+
+set yaw_motors_reversed = ON
+
+set small_angle = 180
+
+set pid_process_denom = 2
+
+set osd_vbat_pos = 6593
+
+set osd_tim_2_pos = 2102
+
+set osd_flymode_pos = 2519
+
+set osd_g_force_pos = 2048
+
+set osd_throttle_pos = 2455
+
+set osd_vtx_channel_pos = 2080
+
+set osd_crosshairs_pos = 6414
+
+set osd_ah_sbar_pos = 302
+
+set osd_ah_pos = 2191
+
+set osd_current_pos = 2507
+
+set osd_craft_name_pos = 6188
+
+set osd_pilot_name_pos = 6216
+
+set osd_warnings_pos = 14761
+
+set osd_ready_mode_pos = 2445
+
+set osd_core_temp_pos = 2487
+
+set osd_stick_overlay_left_pos = 4375
+
+set osd_stick_overlay_right_pos = 4352
+
+set osd_rcchannels_pos = 164
+
+set osd_sys_vtx_temp_pos = 439
+
+set vtx_band = 5
+
+set vtx_channel = 1
+
+set vtx_power = 4
+
+set vtx_freq = 5658
+
+set vcd_video_system = PAL
+
+set expresslrs_uid = 0,0,201,154,204,100
+
+set cpu_late_limit_permille = 100
+
+set craft_name = Gustav
+
+set pilot_name = tt: @martix582
+
+
+
+profile 0
+
+
+
+# profile 0
+
+set profile_name = 1s
+
+set p_pitch = 80
+
+set i_pitch = 100
+
+set d_pitch = 85
+
+set f_pitch = 140
+
+set p_roll = 85
+
+set i_roll = 100
+
+set d_roll = 85
+
+set f_roll = 140
+
+set p_yaw = 120
+
+set i_yaw = 100
+
+set f_yaw = 140
+
+set d_max_roll = 0
+
+set d_max_pitch = 0
+
+set simplified_pids_mode = OFF
+
+
+
+profile 1
+
+
+
+# profile 1
+
+set profile_name = 2s
+
+set p_pitch = 60
+
+set i_pitch = 85
+
+set d_pitch = 28
+
+set f_pitch = 140
+
+set p_roll = 55
+
+set d_roll = 25
+
+set f_roll = 140
+
+set i_yaw = 75
+
+set f_yaw = 140
+
+set d_max_roll = 0
+
+set d_max_pitch = 0
+
+set simplified_pids_mode = OFF
+
+set simplified_feedforward_gain = 95
+
+
+
+profile 2
+
+
+
+profile 3
+
+
+
+# restore original profile selection
+
+profile 1
+
+
+
+rateprofile 0
+
+
+
+# rateprofile 0
+
+set rateprofile_name = 1s
+
+
+
+rateprofile 1
+
+
+
+# rateprofile 1
+
+set rateprofile_name = 2s
+
+set thr_mid = 30
+
+set thr_hover = 9
+
+set throttle_limit_percent = 90
+
+
+
+rateprofile 2
+
+
+
+rateprofile 3
+
+
+
+# restore original rateprofile selection
+
+rateprofile 1
+
+
+
+# save configuration
+
+save
+
+# 
