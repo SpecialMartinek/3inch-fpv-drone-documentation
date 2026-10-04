@@ -13,7 +13,7 @@ Gustav is a custom build based on the **Crux3** frame, designed to be a versatil
 | **Frame** | Crux3 frame + canopy |
 | **FC / AIO** | HGLRC Specter 10A |
 | **Motors** | HGLRC SPECTER 1202.5 11000KV |
-| **Camera** | Caddx Ant 1200TVL |
+| **Camera** | Caddx Baby Ratel 2 |
 | **Propellers** | Gemfan Hurricane 3018 (2-blade) |
 | **VTX** | 400 mW |
 | **RX** | ELRS 2.4 GHz |
