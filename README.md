@@ -35,9 +35,9 @@ Gustav has a dual personality depending on your battery choice:
 ### Beast Mode (2S)
 * **Battery:** Standard 2S LiPo
 * **AUW:** ~72 g
-* **Flight Time:** ~7 minutes
-* **Hover:** 20% throttle
-* **Top Speed:** ~**160 km/h**
+* **Flight Time:** ~5 minutes max
+* **Hover:** 30% throttle
+
 
 ---
 
