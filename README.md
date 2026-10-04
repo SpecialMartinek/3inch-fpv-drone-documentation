@@ -38,13 +38,25 @@ Gustav has a dual personality depending on your battery choice:
 * **Flight Time:** ~5 minutes max
 * **Hover:** 30% throttle
 
+---
+
+## 📡 Range Testing
+
+### 2.4 GHz ELRS + Analog VTX
+* **Verified range:** ~**1 km**
+* **Terrain:** Hilly terrain with trees and bushes
+* **RX link:** Perfect throughout the test
+* **Video:** Perfect throughout the test
+* **Date:** 2026-10-04
+
+The ~1 km test was performed in real terrain rather than an unobstructed open field. Both the control link and analog video remained stable and clear throughout the flight.
 
 ---
 
 ## 📝 Project Status
 - [x] Build completed
 - [x] PID tuning for 1S/2S
-- [x] VTX/RX range verified
+- [x] VTX/RX range verified (~1 km tested in hilly terrain)
 - [ ] Ultimate long-range flight test (> 5km)
 
 ---
